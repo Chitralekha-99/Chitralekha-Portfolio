@@ -734,6 +734,25 @@ footer span a:hover{
     }
 }
 
+@media (max-width: 600px) {
+    nav{
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+    .menu{
+        margin-top: 15px;
+        display: none;
+    }
+    .menu.active, .toggle{
+        display: block;
+    }
+    .toggle{
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+   }
 @media (max-width: 500px) {
     .home .home-content .text-2{
         font-size: 50px;
